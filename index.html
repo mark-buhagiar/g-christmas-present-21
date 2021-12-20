@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./script/fullpage.min.css">
+    <!-- <script src="./script/fullpage.extensions.min.js"></script> -->
+    <script src="./script/fullpage.min.js"></script>    
+</head>
+
+<script>
+    new fullpage('#fullpage', {
+	//options here
+	autoScrolling:true,
+	scrollHorizontally: true
+});
+
+//methods
+fullpage_api.setAllowScrolling(false);
+</script>
+
+<body>
+    <div id="fullpage">
+        <div class="section">Some section</div>
+        <div class="section">Some section</div>
+        <div class="section">Some section</div>
+        <div class="section">Some section</div>
+    </div>
+</body> 
+
+
+</html>
